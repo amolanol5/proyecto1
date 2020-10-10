@@ -1,0 +1,29 @@
+commit 42e6b6f368571ebfead953856f30e16290f23551
+Author: Andres Molano Lujan <andresmolanolujan@gmail.com>
+Date:   Sat Oct 10 16:53:52 2020 -0500
+
+    clase de los formularios
+
+commit 7cad0efa475e40bc01d9b2e214430c504996a645
+Author: Andres Molano Lujan <andresmolanolujan@gmail.com>
+Date:   Sat Oct 10 12:48:12 2020 -0500
+
+    esta es la clase se video e imagenes
+
+commit 74bd4560cadd427d0c3ca22e64ade752c5641f8b
+Author: Andres Molano Lujan <andresmolanolujan@gmail.com>
+Date:   Wed Oct 7 22:03:42 2020 -0500
+
+    este es la lista de mercado
+
+commit 92db5f5e515a7a2934b104f42396874a1d415fb6
+Author: Andres Molano Lujan <andresmolanolujan@gmail.com>
+Date:   Tue Oct 6 23:05:19 2020 -0500
+
+    este es el segundo commit
+
+commit cbeace4c94dcb83984a82a1c346cac05967196d9
+Author: Andres Molano Lujan <andresmolanolujan@gmail.com>
+Date:   Tue Oct 6 18:05:29 2020 -0500
+
+    primer commit

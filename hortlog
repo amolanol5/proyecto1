@@ -1,0 +1,50 @@
+[33mcommit 42e6b6f368571ebfead953856f30e16290f23551[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Andres Molano Lujan <andresmolanolujan@gmail.com>
+Date:   Sat Oct 10 16:53:52 2020 -0500
+
+    clase de los formularios
+
+ index.html | 19 [32m++++++++++++++++++[m[31m-[m
+ 1 file changed, 18 insertions(+), 1 deletion(-)
+
+[33mcommit 7cad0efa475e40bc01d9b2e214430c504996a645[m
+Author: Andres Molano Lujan <andresmolanolujan@gmail.com>
+Date:   Sat Oct 10 12:48:12 2020 -0500
+
+    esta es la clase se video e imagenes
+
+ claseImg/pics/apple.jpg         | Bin [31m0[m -> [32m3060[m bytes
+ claseImg/pics/banana.jpg        | Bin [31m0[m -> [32m64035[m bytes
+ "claseImg/pics/pi\303\261a.jpg" | Bin [31m0[m -> [32m7643[m bytes
+ index.html                      |   9 [32m+++++[m[31m----[m
+ video/zoom.mp4                  | Bin [31m0[m -> [32m26113079[m bytes
+ 5 files changed, 5 insertions(+), 4 deletions(-)
+
+[33mcommit 74bd4560cadd427d0c3ca22e64ade752c5641f8b[m
+Author: Andres Molano Lujan <andresmolanolujan@gmail.com>
+Date:   Wed Oct 7 22:03:42 2020 -0500
+
+    este es la lista de mercado
+
+ contacto.html |  0
+ css/style.css |  0
+ index.html    | 47 [32m++++++++++++++++++++++++++++++++[m[31m---------------[m
+ 3 files changed, 32 insertions(+), 15 deletions(-)
+
+[33mcommit 92db5f5e515a7a2934b104f42396874a1d415fb6[m
+Author: Andres Molano Lujan <andresmolanolujan@gmail.com>
+Date:   Tue Oct 6 23:05:19 2020 -0500
+
+    este es el segundo commit
+
+ index.html | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit cbeace4c94dcb83984a82a1c346cac05967196d9[m
+Author: Andres Molano Lujan <andresmolanolujan@gmail.com>
+Date:   Tue Oct 6 18:05:29 2020 -0500
+
+    primer commit
+
+ index.html | 16 [32m++++++++++++++++[m
+ 1 file changed, 16 insertions(+)
