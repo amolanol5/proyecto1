@@ -10,8 +10,8 @@ pool:
   vmImage: ubuntu-latest
 
 jobs:
-- job: first job
-  name: the first job
+- job: first_job
+  displayName:  the first job
   steps:
   - script: echo Hello, world! $(URL) $(SECRET)
     displayName: 'Run a one-line script'
@@ -21,8 +21,8 @@ jobs:
       echo See https://aka.ms/yaml
     displayName: 'Run a multi-line script'
     
-- job: second job
-  name: the second job
+- job: second_job
+  displayName: the second job
   steps:
   - script: echo Hello, world! $(URL) $(SECRET)
     displayName: 'Run a one-line script'
