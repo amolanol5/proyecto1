@@ -3,7 +3,8 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-trigger: none
+trigger:
+- main
 
 pool:
   vmImage: ubuntu-latest
@@ -15,17 +16,6 @@ jobs:
   - script: echo Hello, world! $(URL) $(SECRET)
     displayName: 'Run a one-line script'
 
-  - script: |
-      echo Add other tasks to build, test, and deploy your project.
-      echo See https://aka.ms/yaml
-    displayName: 'Run a multi-line script'
-    
-- job: second_job
-  displayName: the second job
-  steps:
-  - script: echo Hello, world! $(URL) $(SECRET)
-    displayName: 'Run a one-line script'
-    
   - script: |
       echo Add other tasks to build, test, and deploy your project.
       echo See https://aka.ms/yaml
