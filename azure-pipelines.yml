@@ -17,8 +17,7 @@ jobs:
 - job: first_job
   displayName:  the first job
   steps:
-  - script: |
-   echo Hello, world!  $(role-asumme-dev)
+  - script: echo Hello, world!  $(role-asumme-dev)
     displayName: 'Run a one-line script'
 
   - script: |
