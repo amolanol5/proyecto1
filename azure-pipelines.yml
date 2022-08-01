@@ -6,6 +6,11 @@
 trigger:
 - main
 
+variables:
+- group: DEV-ENV
+- name: aws-secret-dev
+  value: $[variables.aws-secret-dev]
+
 pool:
   vmImage: ubuntu-latest
 
@@ -13,7 +18,7 @@ jobs:
 - job: first_job
   displayName:  the first job
   steps:
-  - script: echo Hello, world! $(URL) $(SECRET)
+  - script: echo Hello, world! $(URL) $(SECRET) $(aws-secret-dev)
     displayName: 'Run a one-line script'
 
   - script: |
