@@ -8,7 +8,7 @@ trigger:
 
 variables:
 - group: DEV-ENV
-- name: aws-secret-dev
+- name: aws-secret-dev-1
   value: $[variables.aws-secret-dev]
 
 pool:
@@ -18,7 +18,7 @@ jobs:
 - job: first_job
   displayName:  the first job
   steps:
-  - script: echo Hello, world! $(URL) $(SECRET) $(aws-secret-dev)
+  - script: echo Hello, world! $(URL) $(SECRET) $(aws-secret-dev-1)
     displayName: 'Run a one-line script'
 
   - script: |
