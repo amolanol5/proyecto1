@@ -10,13 +10,13 @@ trigger:
 parameters:
 - name: BucketOrigen
   type: string
-
+  default: string
 - name: BucketDestino
   type: string
+  default: string
 
 variables:
 - group: DEV-ENV
-
 
 pool:
   vmImage: ubuntu-latest
@@ -29,6 +29,6 @@ jobs:
     displayName: 'Run a one-line script'
 
   - script: |
-      echo "el primer bucket origen es: ${{ parameters.Bucket-Origen }}"
-      echo "el primer bucket origen es: ${{ parameters.Bucket-Destino }}"
+      echo "el primer bucket origen es: ${{ parameters.BucketOrigen }}"
+      echo "el primer bucket origen es: ${{ parameters.BucketDestino }}"
     displayName: 'Migracion de buckets'
