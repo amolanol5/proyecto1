@@ -8,26 +8,12 @@ trigger:
 
 
 parameters:
-- name: myString
+- name: Bucket-Origen
   type: string
-  default: a string
-- name: myMultiString
-  type: string
-  default: default
-  values:
-  - default
-  - ubuntu
-- name: myNumber
-  type: number
-  default: 2
-  values:
-  - 1
-  - 2
-  - 4
-  - 8
-  - 16
 
-  
+- name: Bucket-Destino
+  type: string
+
 variables:
 - group: DEV-ENV
 
@@ -43,6 +29,6 @@ jobs:
     displayName: 'Run a one-line script'
 
   - script: |
-      echo Add other tasks to build, test, and deploy your project.
-      echo See https://aka.ms/yaml
-    displayName: 'Run a multi-line script'
+      echo "el primer bucket origen es: ${{ parameters.Bucket-Origen }}"
+      echo "el primer bucket origen es: ${{ parameters.Bucket-Destino }}"
+    displayName: 'Migracion de buckets'
