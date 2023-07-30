@@ -8,10 +8,10 @@ trigger:
 
 
 parameters:
-- name: Bucket-Origen
+- name: BucketOrigen
   type: string
 
-- name: Bucket-Destino
+- name: BucketDestino
   type: string
 
 variables:
