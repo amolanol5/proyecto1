@@ -6,6 +6,28 @@
 trigger:
 - main
 
+
+parameters:
+- name: myString
+  type: string
+  default: a string
+- name: myMultiString
+  type: string
+  default: default
+  values:
+  - default
+  - ubuntu
+- name: myNumber
+  type: number
+  default: 2
+  values:
+  - 1
+  - 2
+  - 4
+  - 8
+  - 16
+
+  
 variables:
 - group: DEV-ENV
 
